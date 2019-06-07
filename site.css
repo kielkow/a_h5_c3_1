@@ -61,7 +61,12 @@ aside a{
 }
 
 article footer{
-    background-color: #C2CCCA;
+    background-color: transparent;
+    color: #851944
+}
+
+article a{
+    text-decoration: none;
 }
 
 footer{
