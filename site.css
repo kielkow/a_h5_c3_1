@@ -76,6 +76,11 @@ aside ul{
     padding: 0px;
 }
 
+.redesSociais li{
+    display: inline-block;
+    margin-top: 20px;
+}
+
 aside a{
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
