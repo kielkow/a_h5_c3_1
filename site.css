@@ -97,9 +97,10 @@ article a{
     text-decoration: none;
 }
 
-footer{
-    background-color: black;
+#rodape-pagina {
+    background-color: #000;
     color: #F2FFFC;
+    padding: 10px;
 }
 
 nav a{
