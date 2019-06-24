@@ -93,8 +93,17 @@ article footer{
     margin-bottom: 30px;
 }
 
+article{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.artigoPosterior{
+    margin-top: 80px;
+}
+
 article a{
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 #rodape-pagina {
