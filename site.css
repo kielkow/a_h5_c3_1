@@ -90,7 +90,7 @@ aside a{
 article footer{
     background-color: transparent;
     color: #851944;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 article{
@@ -114,4 +114,13 @@ article a{
 
 nav a{
     color: #F2FFFC;
+}
+
+.leiamais{
+    font-size: 20px;
+    display: block;
+}
+
+.tags{
+    margin-top: 20px;
 }
