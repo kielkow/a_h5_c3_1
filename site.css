@@ -35,6 +35,7 @@ main h1 {
     padding: 25px;
     border-bottom: 10px solid black;
     font-size: 60px;
+    text-transform: uppercase;
 }
 
 main h2{
@@ -79,6 +80,25 @@ aside ul{
 .redesSociais li{
     display: inline-block;
     margin-top: 20px;
+}
+
+.redesSociais a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+}
+
+.github{
+    background-image: url(imagens/github.png);
+}
+
+.twitter{
+    background-image: url(imagens/twitter.png);
+}
+
+.linkedin{
+    background-image: url(imagens/linkedin.png);
 }
 
 aside a{
