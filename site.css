@@ -166,10 +166,10 @@ nav a{
 aside, img{
     float: right;
     width: 15%;
+    box-sizing: border-box;
 }
 
 aside{
-    clear: right;
     box-sizing: border-box;
 }
 
@@ -190,4 +190,9 @@ footer{
 .manoel{
     float: left;
     font-style: italic;
+}
+
+img, .barraRedes{
+    border-left: 7px solid #000;
+    border-bottom: 7px solid #000;
 }
