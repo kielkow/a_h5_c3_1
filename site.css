@@ -40,6 +40,11 @@ main h1 {
 
 main h2{
     font-size: 30px;
+    clear: both;
+}
+
+.h2Bio{
+    padding-top: 50px;
 }
 
 p {
@@ -56,6 +61,14 @@ blockquote{
     width: 250px;
     box-sizing: border-box;
     margin: 20px 40px;
+}
+
+.fiat{
+    float: right;
+}
+
+.petrobras{
+    float: left;
 }
 
 aside{
@@ -148,4 +161,33 @@ nav a{
 
 .tags{
     margin-top: 20px;
+}
+
+aside, img{
+    float: right;
+    width: 15%;
+}
+
+aside{
+    clear: right;
+    box-sizing: border-box;
+}
+
+main{
+    float: left;
+    width: 85%;
+}
+
+footer{
+    clear: both;
+}
+
+.jose{
+    float: right;
+    font-style: italic;
+}
+
+.manoel{
+    float: left;
+    font-style: italic;
 }
