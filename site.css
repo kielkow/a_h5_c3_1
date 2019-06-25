@@ -15,9 +15,10 @@ em {
 
 
 main div{
-    width: 720px;
-    margin: auto;
-    padding: 30px 0;
+    width: 840px;
+    margin: 0 auto;
+    padding: 40px 0;
+    padding-bottom: 80px;
 }
 
 main a{
@@ -65,10 +66,12 @@ blockquote{
 
 .fiat{
     float: right;
+    margin-right: 0;
 }
 
 .petrobras{
     float: left;
+    margin-left: 0;
 }
 
 aside{
@@ -163,16 +166,6 @@ nav a{
     margin-top: 20px;
 }
 
-aside, img{
-    float: right;
-    width: 15%;
-    box-sizing: border-box;
-}
-
-aside{
-    box-sizing: border-box;
-}
-
 main{
     float: left;
     width: 85%;
@@ -180,6 +173,9 @@ main{
 
 footer{
     clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .jose{
@@ -195,4 +191,19 @@ footer{
 img, .barraRedes{
     border-left: 7px solid #000;
     border-bottom: 7px solid #000;
+}
+
+img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    float: right;
+    box-sizing: border-box;
+}
+
+.barraRedes{
+    position: absolute;
+    top: 307px;
+    right: 0px;
+    width: 15%;
 }
