@@ -188,12 +188,12 @@ footer{
     font-style: italic;
 }
 
-img, .barraRedes{
+.minhafoto, .barraRedes{
     border-left: 7px solid #000;
     border-bottom: 7px solid #000;
 }
 
-img{
+.minhafoto{
     position: absolute;
     top: 0;
     right: 0;
@@ -206,4 +206,65 @@ img{
     top: 307px;
     right: 0px;
     width: 15%;
+}
+
+figure{
+    border: 8px solid black;
+    padding: 16px;
+    width: 320px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+figure a{
+    text-decoration: none;
+    color: black;
+}
+
+.pPort{
+    font-size: 30px;
+}
+
+.figures{
+    display: inline-block;
+    width: 770px;
+    height: 300px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bmw{
+    float: left;
+}
+
+.uol{
+    float: right;
+}
+
+.ibm{
+    float: left;
+}
+
+.g1{
+    float: right;
+}
+
+.imgBmw{
+    width: 100%;
+}
+
+.imgUol{
+    width: 100%;
+}
+
+.imgIbm{
+    width: 100%;
+}
+
+.imgG1{
+    width: 100%;
+}
+
+.divmain{
+    width: 50%;
 }
